@@ -18,17 +18,25 @@
     </header>
 
     <main>
+        <!-- SEZIONE BOTTONI
+             SAREBBERO DA TRASFORMARE IN BOTTONI -->    
             <div class="addSpace">
                 <span class="button1">Add Task</span>
                 <span class="button2">Add Section</span>
             </div>
-
-          
+          <!-- DIV GRANDE PER TUTTLE LE IPOTETICHE LISTE
+                DIMENSIONATO IN CSS -->
             <div class="listSpace">
+                <!-- LISTA 1 
+                    TUTTE LE LISTE HANNO ASSEGNAZIONE "AUTOMATICA"
+                    DELLE ETICHETTE DA CSS IN BASE ALLA CLASSE
+                    
+                    AGGIUNTA LISTA "DOPPIA" (NEWTASK E LIST) PER IPOTETICI SVILUPPI DI STILE FUTURI DI UNA SINGOLA LISTA-->
                 <ul class="newTask list"> <span class="listTitle">New Task</span>
                     <li> <div class="done">&#10003;</div> Quarterly Newsletter <span class="label editorial"></span>
                     </li>
                 </ul>
+                <!-- LISTA 2 -->
                 <ul class="today list"> <span class="listTitle">Today</span>
                     <li> <div class="done">&#10003;</div> Quarterly Newsletter <span class="label goals"></span>
                     </li>
@@ -39,6 +47,7 @@
                     <li> <div class="done">&#10003;</div> Quarterly Newsletter <span class="label website"></span>
                     </li>
                 </ul>
+                <!-- LISTA 3 -->
                 <ul class="upcoming list"> <span class="listTitle">Upcoming</span>
                     <li> <div class="done">&#10003;</div> Quarterly Newsletter <span class="label editorial"></span>
                     </li>
@@ -49,10 +58,17 @@
                     <li> <div class="undone">&#10007;</div> Quarterly Newsletter <span class="label mobile"></span>
                     </li>
                 </ul>
-            </div>
-
-            
+            </div>            
     </main>
-
 </body>
 </html>
+
+<!-- COSA SI POTREBBE MIGLIORARE:
+        - SPOSTARE LE CLASSI DI LABELING ALL'INTERNO DEGLI 
+        LI E VEDERE SE FUNZIONANO LE ASSEGNAZIONI AUTOMATICHE
+        COSI SI TOGLIEREBBERO TUTTI GLI SPAN SU OGNI LI
+        - ALLO STESSO MODO PROVARE AD USARE UN BEFORE SU OGNI
+        LI PER INSERIRE I CHECK MARK ED ELIMINARE TUTTI I DIV
+        CHE SEGUONO LI (FORSE SI PUO FARE STRUTTURANDO GLI ELEMENTI
+        E METTENDOLI IN DISPLAY NON E POI IN DISPLAY INLINE BLOCK
+        CON IL BEFORE) -->
