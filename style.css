@@ -77,3 +77,20 @@ body{
 .newTask::before{
     content: "\25BC" ;
 }
+
+.list{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.done{
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
