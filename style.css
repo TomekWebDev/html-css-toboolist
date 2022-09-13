@@ -2,4 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
+
+header{
+    background-color: white;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.logotype{
+    font-weight: bold;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.logoContainer{
+    margin-left: 5%;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+/* .mainContainer{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 10vh;
+    border: 1px solid red;
+    background-color: aqua;
+} */
+
+.addSpace{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10vh;
+    padding: 1%;
+    padding-left: 4%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.button1, .button2{
+    display: inline-block;
+    background-color: #3aa3e3;
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
