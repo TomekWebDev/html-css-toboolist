@@ -63,7 +63,7 @@ body{
     color: gray;
 }
 
-.list{
+.listSpace{
     width: 75%;
     margin: auto;
     background-color: white;
@@ -72,4 +72,8 @@ body{
     padding-left: 4%;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+}
+
+.newTask::before{
+    content: "\25BC" ;
 }
