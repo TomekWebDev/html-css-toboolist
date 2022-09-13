@@ -27,15 +27,6 @@ body{
     background-color: #eeeeee;
 }
 
-/* .mainContainer{
-    width: 80%;
-    height: 70vh;
-    margin: auto;
-    margin-top: 10vh;
-    border: 1px solid red;
-    background-color: aqua;
-} */
-
 .addSpace{
     width: 75%;
     margin: auto;
@@ -74,7 +65,11 @@ body{
     border-bottom-right-radius: 3px;
 }
 
-.newTask::before{
+ul{
+    line-height: 40px;
+}
+
+.list::before{
     content: "\25BC" ;
 }
 
@@ -106,10 +101,10 @@ body{
     line-height: 20px;
 }
 
-.blue{
+.editorial{
     background-color:#3aa3e3;
 }
 
-ul{
-    line-height: 40px;
+.editorial::after{
+    content: "Editorial";
 }
