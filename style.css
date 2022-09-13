@@ -49,9 +49,27 @@ body{
 
 .button1, .button2{
     display: inline-block;
-    background-color: #3aa3e3;
-    border-radius: 2px;
-    border: 1px solid gray;
+    border-radius: 5px;
     padding: 5px;
 }
 
+.button1{
+    background-color: #3aa3e3;
+    color: white;
+}
+
+.button2{
+    border: 1px solid gray;
+    color: gray;
+}
+
+.list{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    margin-top: 1vh;
+    padding: 1%;
+    padding-left: 4%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
