@@ -78,6 +78,10 @@ ul{
     list-style-type: none;
 }
 
+.listTitle{
+    font-weight: bold;
+}
+
 .done{
     display: inline-block;
     border: 1px solid green;
@@ -159,4 +163,14 @@ ul{
 
 .goals::after{
     content: "Goals";
+}
+
+.done:hover{
+    background-color: red;
+    color: white;
+}
+
+.undone:hover{
+    background-color: green;
+    color: white;
 }
