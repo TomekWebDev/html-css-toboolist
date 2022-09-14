@@ -66,7 +66,7 @@ body{
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
-
+/* 
 ul{
     line-height: 40px;
 }
@@ -125,6 +125,7 @@ ul{
 
 .editorial::after{
     content: "Editorial";
+
 }
 
 .mobile{
@@ -175,6 +176,63 @@ ul{
 .undone:hover{
     background-color: green;
     color: white;
+} */
+
+ul{
+    list-style: none;
+    line-height: 30px;
 }
+
+.list-title::before{
+    content: "\25BC";
+    margin-right: 10px;
+}
+
+.done::before{
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    content: "\2714 ";
+} 
+
+.undone::before{
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    content: "\2716 ";
+}
+
+.label::after{
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-right: 12px;;
+    text-align: center;
+    font-size: 0.6rem;
+    line-height: 20px;
+}
+
+.editorial::after{
+    content: "Editorial";
+    background-color: #3aa3e3;
+}
+
+
 
 /* VEDI INDEX.HTML PER LE MODIFICHE FATTIBILI E I COMMENTI */
