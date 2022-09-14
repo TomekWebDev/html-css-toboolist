@@ -67,107 +67,6 @@ body{
     border-bottom-right-radius: 3px;
 }
 /* 
-ul{
-    line-height: 40px;
-}
-
-.list::before{
-    content: "\25BC" ;
-}
-
-.list{
-    list-style-position: inside;
-    list-style-type: none;
-}
-
-.listTitle{
-    font-weight: bold;
-}
-
-.done{
-    display: inline-block;
-    border: 1px solid green;
-    color: green;
-    border-radius: 50%;
-    padding: 0px;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-}
-
-.undone{
-    display: inline-block;
-    border: 1px solid red;
-    color: red;
-    border-radius: 50%;
-    padding: 0px;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-}
-
-.label{
-    display: inline-block;
-    color: white;
-    border-radius: 8px;
-    padding-left: 12px;
-    padding-right: 12px;;
-    text-align: center;
-    font-size: 0.6rem;
-    line-height: 20px;
-}
-
-.editorial{
-    background-color:#3aa3e3;
-}
-
-.editorial::after{
-    content: "Editorial";
-
-}
-
-.mobile{
-    background-color:#e8912d;
-}
-
-.mobile::after{
-    content: "Mobile";
-}
-
-.recruiting{
-    background-color:#64c0a9;
-}
-
-.recruiting::after{
-    content: "Recruiting";
-}
-
-.website{
-    background-color:#d863a1;
-}
-
-.website::after{
-    content: "Website";
-}
-
-.sales{
-    background-color:#b0c925;
-}
-
-.sales::after{
-    content: "Sales";
-}
-
-.goals{
-    background-color:#9c72e4;
-}
-
-.goals::after{
-    content: "Goals";
-}
-
 .done:hover{
     background-color: red;
     color: white;
@@ -183,9 +82,15 @@ ul{
     line-height: 30px;
 }
 
+.list-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .list-title::before{
     content: "\25BC";
     margin-right: 10px;
+
 }
 
 .done::before{
@@ -199,7 +104,7 @@ ul{
     height: 20px;
     line-height: 20px;
     text-align: center;
-    content: "\2714 ";
+    content: "\2714";
 } 
 
 .undone::before{
@@ -213,7 +118,7 @@ ul{
     height: 20px;
     line-height: 20px;
     text-align: center;
-    content: "\2716 ";
+    content: "\2716";
 }
 
 .label::after{
@@ -233,6 +138,58 @@ ul{
     background-color: #3aa3e3;
 }
 
+.mobile::after{
+    background-color:#e8912d;
+    content: "Mobile";
+}
 
+
+.recruiting::after{
+    background-color:#64c0a9;
+    content: "Recruiting";
+}
+
+
+.website::after{
+    background-color:#d863a1;
+    content: "Website";
+}
+
+.goals::after{
+    background-color:#9c72e4;
+    content: "Goals";
+}
+
+.sales::after{
+    background-color:#b0c925;
+    content: "Sales";
+}
+
+.fatto, .non-fatto{
+    display: none;
+}
+
+
+.done:hover::before {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-color: red;
+    content: "\2716";
+    color: white;
+}
+
+.undone:hover::before {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-color: green;
+    color: white;
+    content: "\2714";
+}
+
+.list-title:hover::before {
+    color: fuchsia;
+}
 
 /* VEDI INDEX.HTML PER LE MODIFICHE FATTIBILI E I COMMENTI */
