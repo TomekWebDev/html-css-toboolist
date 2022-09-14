@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!--PER L'HEADER NON SERVIVA IL DIV CONTENITORE, BASTAVA METTERE
+        DEL PADDING ALL'HEADER TANTO LA SPAZIATURA TRE IMG E 
+        TESTO NON CAMBIA COMUNQUE -->
+    <!--SI POTEVA USARE UN H1 PER IL LOGOTIPO E DARE DISPLAY
+        INLINE O INLINE BLOCK -->
     <header>
         <div class="logoContainer">
             <img class="logo" src="assets/img 3/Logo.png" alt="Logo Boolean">
@@ -21,8 +25,9 @@
         <!-- SEZIONE BOTTONI
              SAREBBERO DA TRASFORMARE IN BOTTONI -->    
             <div class="addSpace">
-                <span class="button1">Add Task</span>
-                <span class="button2">Add Section</span>
+                <button class="button1">Add Task</button>
+                <button class="button2">Add Section</button>
+                
             </div>
           <!-- DIV GRANDE PER TUTTLE LE IPOTETICHE LISTE
                 DIMENSIONATO IN CSS -->
@@ -49,13 +54,13 @@
                 </ul>
                 <!-- LISTA 3 -->
                 <ul class="upcoming list"> <span class="listTitle">Upcoming</span>
-                    <li> <div class="done">&#10003;</div> Quarterly Newsletter <span class="label editorial"></span>
+                    <li>Quarterly Newsletter <span class="label editorial"></span>
                     </li>
-                    <li> <div class="done">&#10003;</div> Quarterly Newsletter <span class="label goals"></span>
+                    <li>Quarterly Newsletter <span class="label goals"></span>
                     </li>
-                    <li> <div class="done">&#10003;</div> Quarterly Newsletter <span class="label recruiting"></span>
+                    <li>Quarterly Newsletter <span class="label recruiting"></span>
                     </li>
-                    <li> <div class="undone">&#10007;</div> Quarterly Newsletter <span class="label mobile"></span>
+                    <li>Quarterly Newsletter <span class="label mobile"></span>
                     </li>
                 </ul>
             </div>            

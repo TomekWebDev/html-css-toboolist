@@ -42,11 +42,13 @@ body{
     display: inline-block;
     border-radius: 5px;
     padding: 5px;
+    border: 0px;
 }
 
 .button1{
     background-color: #3aa3e3;
     color: white;
+    border: 1px solid #3aa3e3;
 }
 
 .button2{
